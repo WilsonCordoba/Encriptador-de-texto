@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+       <img class="logo" src="./Assest/Logo.png" alt="logo Alura">
+       <h1 class="titulo">
+        <span class="linea1">Desafio</span><br>
+        <span class="linea2">Encriptador de texto</span>
+    </h1>
+    </header>
+       <main>
+        <section class="seccion_uno">
+            <textarea class="text_area" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="exclamacion">
+                <img src="./Assest/bi_exclamation-circle-fill.png" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto_aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button type="submit" class="boton_encriptar">Encriptar!</button>
+                <button type="submit" class="boton_desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+        <section class="seccion_dos">
+           <div class="bloque_dos">
+                <img class="img_muneco" src="./Assest/Muñeco.png" alt="Muñeco">
+                <p class="texto_uno">Ningún mensaje fue encontrado</p>
+                <p class="texto_dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="boton_copiar">Copiar</button>
+         </section>  
+    </main>
+    <footer class="footer">
+        <p class="footer_text">&copy; copyright 2024 - Encriptador de Texto - Elaborado por Wilson Cordoba</p>
+        <a class="Iconos" href="https://github.com/WilsonCordoba">
+            <img src="./Assest/github.png"></a>
+        <a class="Iconos" href="https://www.linkedin.com/in/wilson-cordoba-reyes-196005206/">
+            <img src="./Assest/linkedin .png"></a>
+    </footer>
+   
+    <script src="./script.js"></script>
+
+</body>
+</html>
